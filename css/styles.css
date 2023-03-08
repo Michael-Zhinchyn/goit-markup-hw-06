@@ -652,11 +652,9 @@
 }
 
 .form-field-ftr input::placeholder {
-
     color: var(--WHITE);
-    
-
 }
+
 
 .btn-subscribe {
     display: inline-flex;
@@ -695,7 +693,6 @@
 }
 
 
-
 .backdrop {
     position: fixed;
     top: 0;
@@ -704,7 +701,6 @@
     height: 100%;
     background-color: rgba(46, 47, 66, 0.4);
     transition: opacity 250ms;
-
 }
 
 .backdrop.is-hidden {
@@ -712,7 +708,6 @@
     pointer-events: none;
     transition: opacity 250ms;
 }
-
 
 .modal {
     position: relative;
