@@ -658,7 +658,7 @@
 
 .btn-subscribe {
     display: inline-flex;
-    flex-direction: row;
+    
     width: 165px;
     height: 40px;
 
@@ -667,6 +667,7 @@
     bottom: 0;
 
     padding-left: 24px;
+    
     align-items: center;
     background: var(--btn-primary);
     border: var(--btn-primary);
@@ -683,6 +684,7 @@
     width: 24px;
     height: 24px;
     margin-left: 16px;
+    margin-right: 24px;
     background-image: url(../images/icon-send.svg);
     background-repeat: no-repeat;
     background-size: contain;
