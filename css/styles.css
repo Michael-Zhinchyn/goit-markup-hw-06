@@ -639,6 +639,7 @@
     padding-bottom: 8px;
     padding-left: 16px;
     color: var(--WHITE);
+    line-height: 2;
 }
 
 .form-field-ftr label {
@@ -654,12 +655,12 @@
 
     color: var(--WHITE);
     
-    line-height: 2;
 
 }
 
 .btn-subscribe {
     display: inline-flex;
+    flex-direction: row;
     width: 165px;
     height: 40px;
 
@@ -667,20 +668,13 @@
     right: 0;
     bottom: 0;
 
-    
-    gap: 16px;
     padding-left: 24px;
-    padding-right: 24px;
-    
     align-items: center;
     background: var(--btn-primary);
     border: var(--btn-primary);
     border-radius: 4px;
-
-    font-family: 'Roboto';
     font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5px;
+    
     color: var(--WHITE);
     cursor: pointer;
     transition: background-color var(--basic-transition);
@@ -690,9 +684,10 @@
     content: "";
     width: 24px;
     height: 24px;
-    
+    margin-left: 16px;
     background-image: url(../images/icon-send.svg);
     background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .btn-subscribe:hover {
