@@ -94,6 +94,10 @@
     color: var(--site-primary);
 }
 
+.logo:focus {
+    outline-color: var(--btn-hover-active);
+}
+
 .logo-firstcolor {
       font-family: 'Raleway';
       font-style: normal;
@@ -134,6 +138,7 @@
 .menu-link:hover,
 .menu-link:focus {
     color: var(--btn-hover-active);
+    outline-color: var(--btn-hover-active);
     }
 
 .nav-item {
@@ -155,6 +160,7 @@
 .adress-link:hover,
 .adress-link:focus {
     color: var(--btn-hover-active);
+    outline-color: var(--btn-hover-active);
 
 }
 
@@ -444,6 +450,10 @@
     transition: transform var(--basic-transition);
     }
 
+    .list-link:focus {
+        outline-color: var(--icon-background);
+    }
+
 .wrapper {
     position: relative;
     overflow: hidden;
@@ -686,7 +696,6 @@
     background: var(--btn-hover-active);
     outline: none;
 }
-
 
 .backdrop {
     position: fixed;
