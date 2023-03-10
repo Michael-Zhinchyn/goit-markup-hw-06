@@ -777,11 +777,14 @@
     border-radius: 4px;
     background-color:var(--modal-bcgd);
     height: 40px;
+    
 }
 
 .form-field-modal textarea::placeholder {
     color: rgba(46, 47, 66, 0.4);
     font-size: 12px;
+    
+    
 }
 
 .form-field-modal label {
@@ -803,6 +806,7 @@ textarea {
     border: 1px solid rgba(33, 33, 33, 0.2);
     border-radius: 4px;
     background-color: var(--modal-bcgd);
+    
 }
 
 input {
