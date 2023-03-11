@@ -322,7 +322,7 @@
     box-shadow: var(--box-shadow);
 }
 
-.team-social-lisi {
+.team-social-list {
     display: flex;
     gap: var(--basic-margin);
     justify-content: center;
