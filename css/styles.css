@@ -121,6 +121,7 @@
     font-weight: inherit;
 }
 
+
 .header {
     border-bottom:
     1px solid var(--btn-border); 
@@ -145,6 +146,13 @@
     position: relative;
 }
 
+
+.link-studio,
+.link-portfolio {
+    color: var(--btn-hover-active);
+}
+
+
 .link-studio::after,
 .link-portfolio::after {
     content: "";
@@ -155,6 +163,7 @@
     background-color: var(--btn-hover-active);
     border-radius: 2px;
     bottom:-1px;
+    color: var(--icon-hover-green);
 }
 
 .adress-link:hover,
