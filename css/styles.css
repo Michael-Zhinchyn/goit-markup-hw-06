@@ -871,12 +871,6 @@ textarea:focus {
     }
 
 
-.checkbox {
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    padding-left: 0;
-}
 
 .policy-block {
     position: relative;
@@ -920,4 +914,11 @@ textarea:focus {
     background-position: center;
     background-size: 10px 8px;
     border-color: var(--btn-hover-active);
+}
+
+.checkbox {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding-left: 0;
 }
